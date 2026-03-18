@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Source">
+      <UniqueIdentifier>{3dda03c1-48d0-4822-af08-10314e9a8508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Resource">
+      <UniqueIdentifier>{f9dcb870-42bc-431b-98c2-cbef543c8afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Player">
+      <UniqueIdentifier>{985aa4cd-244c-4a34-b4c9-fa4831479951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Camera">
+      <UniqueIdentifier>{7d200767-c961-4dd5-9310-35512dd8ef01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Block">
+      <UniqueIdentifier>{1c098bf5-1fe1-4e80-8c79-b8b9b2473883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\MyMath">
+      <UniqueIdentifier>{6c02ec26-1ee7-4972-99ef-ccb9732d837a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Floor">
+      <UniqueIdentifier>{09e3da78-b483-4460-b89d-2e78cdd0b4b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Input">
+      <UniqueIdentifier>{b105ee97-332d-4cb9-bcfe-79ab5e3bfa2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\FPS">
+      <UniqueIdentifier>{fed61d3d-819a-4465-b3fb-235309fa0fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Collision">
+      <UniqueIdentifier>{d96ab63c-3c0a-4414-a61b-e32e0f830f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Camera\デバッグカメラ">
+      <UniqueIdentifier>{93a8d385-292c-430f-b769-57f3f6165b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Collision\AABB">
+      <UniqueIdentifier>{66d976b3-4787-4160-821c-f0d0f9558023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Collision\Sphere">
+      <UniqueIdentifier>{75e168e7-4f46-4e06-bb42-e94b9151f657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Scene">
+      <UniqueIdentifier>{9ced88b8-ad5c-4494-a00e-145fb6ea5ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Scene\シーン管理">
+      <UniqueIdentifier>{430c9900-9982-4cbe-8143-89b04220d818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Scene\各シーン">
+      <UniqueIdentifier>{9555bad9-e1cf-4a99-9fbe-504020ef9f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Player\プレイヤー管理">
+      <UniqueIdentifier>{b86de2cb-3694-40f5-9987-f9cb307a743b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Block\ブロックの管理">
+      <UniqueIdentifier>{38279140-a1dd-497c-be1f-918a161705c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Stage">
+      <UniqueIdentifier>{74abe14d-df6d-4b09-9aea-f5d547f5bafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Stage\Stage管理">
+      <UniqueIdentifier>{c42f436e-d7a1-46f1-8e9b-280c38f4d6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Common">
+      <UniqueIdentifier>{c3e5f9ba-7afd-41d2-8e89-b4501f7a8f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Item">
+      <UniqueIdentifier>{e3ab146c-954e-4920-bb39-4ba32c4093d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Item\Itemの管理">
+      <UniqueIdentifier>{79e38ebd-e5d7-4473-bfe8-487c61c1efbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Inventory">
+      <UniqueIdentifier>{a6017ac2-3636-44b4-a322-fd6df83fa425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Inventory\Inventory管理">
+      <UniqueIdentifier>{3ecad5c0-c1be-4f40-a38d-23de83f0d352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Enemy">
+      <UniqueIdentifier>{ad64d40f-1f50-4a37-8777-8dc6151a581b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Enemy\Enemy管理">
+      <UniqueIdentifier>{306d4a0c-1eaa-4675-8b7a-614f312f93e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Bullet">
+      <UniqueIdentifier>{a25cb232-98a7-44ca-90b7-2f5a6fa697d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Goal">
+      <UniqueIdentifier>{fdf05257-e0f9-4fb8-a821-3fd03bfdf49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Sound">
+      <UniqueIdentifier>{5417e870-abc6-42d3-8ca8-4f746fdbd2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Library">
+      <UniqueIdentifier>{d919c7c7-9115-4dc2-9e05-6b31227444c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Library\json">
+      <UniqueIdentifier>{0d109819-ecf6-4e8e-838f-ed034ccf5390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Button">
+      <UniqueIdentifier>{921d1a06-3c13-4cda-94f8-c31875c449f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\UI">
+      <UniqueIdentifier>{2b0ac1c5-5b0a-45e0-8d82-39902c440658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\SkyBox">
+      <UniqueIdentifier>{c7d4d8c5-613d-48b2-94bd-39279a513fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\UI\UI管理">
+      <UniqueIdentifier>{6fb730c9-41b2-410e-93a6-757303e817a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\UI\PoseUI">
+      <UniqueIdentifier>{ccaf00f3-f094-4dca-9beb-dd8c85c32623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\UI\CraftUI">
+      <UniqueIdentifier>{2b61da17-55ea-40a2-876d-d0c4fba008b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\UI\TextUI">
+      <UniqueIdentifier>{278d93bc-c450-4b70-9436-81577c514b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Source\Animetion">
+      <UniqueIdentifier>{38e0a16e-7232-4e58-ba4b-a81947bc89da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>ソース ファイル\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>ソース ファイル\Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraBase.cpp">
+      <Filter>ソース ファイル\Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraManager.cpp">
+      <Filter>ソース ファイル\Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\DebugCamera.cpp">
+      <Filter>ソース ファイル\Source\Camera\デバッグカメラ</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MyMath\MyMath.cpp">
+      <Filter>ソース ファイル\Source\MyMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Floor\Floor.cpp">
+      <Filter>ソース ファイル\Source\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>ソース ファイル\Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FPS\FPS.cpp">
+      <Filter>ソース ファイル\Source\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionManager.cpp">
+      <Filter>ソース ファイル\Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionAABB.cpp">
+      <Filter>ソース ファイル\Source\Collision\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionSphere.cpp">
+      <Filter>ソース ファイル\Source\Collision\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneManager.cpp">
+      <Filter>ソース ファイル\Source\Scene\シーン管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneBase.cpp">
+      <Filter>ソース ファイル\Source\Scene\シーン管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\ClearScene.cpp">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\GameOver.cpp">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\PlayScene.cpp">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\PoseScene.cpp">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\TitleScene.cpp">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerManager.cpp">
+      <Filter>ソース ファイル\Source\Player\プレイヤー管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Block\BlockManager.cpp">
+      <Filter>ソース ファイル\Source\Block\ブロックの管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\StageManager.cpp">
+      <Filter>ソース ファイル\Source\Stage\Stage管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\ItemManager.cpp">
+      <Filter>ソース ファイル\Source\Item\Itemの管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Inventory\InventoryManager.cpp">
+      <Filter>ソース ファイル\Source\Inventory\Inventory管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\FooterScene.cpp">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\Stage.cpp">
+      <Filter>ソース ファイル\Source\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\EnemyManager.cpp">
+      <Filter>ソース ファイル\Source\Enemy\Enemy管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Block\Block.cpp">
+      <Filter>ソース ファイル\Source\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Item.cpp">
+      <Filter>ソース ファイル\Source\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル\Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Player.cpp">
+      <Filter>ソース ファイル\Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet\Bullet.cpp">
+      <Filter>ソース ファイル\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet\BulletManager.cpp">
+      <Filter>ソース ファイル\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet\BulletBase.cpp">
+      <Filter>ソース ファイル\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goal\Goal.cpp">
+      <Filter>ソース ファイル\Source\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goal\GoalManager.cpp">
+      <Filter>ソース ファイル\Source\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\CraftScene.cpp">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\ItemCraftManager.cpp">
+      <Filter>ソース ファイル\Source\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\StageMapChip.cpp">
+      <Filter>ソース ファイル\Source\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\SoundManager.cpp">
+      <Filter>ソース ファイル\Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animetion\AnimetionManager.cpp">
+      <Filter>ソース ファイル\Source\Animetion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Floor\FloorManager.cpp">
+      <Filter>ソース ファイル\Source\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button\Button.cpp">
+      <Filter>ソース ファイル\Source\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button\IconButton.cpp">
+      <Filter>ソース ファイル\Source\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SkyBox\SkyBox.cpp">
+      <Filter>ソース ファイル\Source\SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIBase.cpp">
+      <Filter>ソース ファイル\Source\UI\UI管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UIManager.cpp">
+      <Filter>ソース ファイル\Source\UI\UI管理</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\PoseUI.cpp">
+      <Filter>ソース ファイル\Source\UI\PoseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\TextUI.cpp">
+      <Filter>ソース ファイル\Source\UI\TextUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\CraftUI.cpp">
+      <Filter>ソース ファイル\Source\UI\CraftUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Camera\Camera.h">
+      <Filter>ソース ファイル\Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraBase.h">
+      <Filter>ソース ファイル\Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraManager.h">
+      <Filter>ソース ファイル\Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\DebugCamera.h">
+      <Filter>ソース ファイル\Source\Camera\デバッグカメラ</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MyMath\MyMath.h">
+      <Filter>ソース ファイル\Source\MyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Floor\Floor.h">
+      <Filter>ソース ファイル\Source\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>ソース ファイル\Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FPS\FPS.h">
+      <Filter>ソース ファイル\Source\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionManager.h">
+      <Filter>ソース ファイル\Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionAABB.h">
+      <Filter>ソース ファイル\Source\Collision\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionSphere.h">
+      <Filter>ソース ファイル\Source\Collision\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\Player.h">
+      <Filter>ソース ファイル\Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneParameter.h">
+      <Filter>ソース ファイル\Source\Scene\シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneManager.h">
+      <Filter>ソース ファイル\Source\Scene\シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneBase.h">
+      <Filter>ソース ファイル\Source\Scene\シーン管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\ClearScene.h">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\GameOver.h">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\PlayScene.h">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\PoseScene.h">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\TitleScene.h">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerManager.h">
+      <Filter>ソース ファイル\Source\Player\プレイヤー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerParameter.h">
+      <Filter>ソース ファイル\Source\Player\プレイヤー管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Block\BlockManager.h">
+      <Filter>ソース ファイル\Source\Block\ブロックの管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Block\BlockDef.h">
+      <Filter>ソース ファイル\Source\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\Stage.h">
+      <Filter>ソース ファイル\Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\StageManager.h">
+      <Filter>ソース ファイル\Source\Stage\Stage管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Common.h">
+      <Filter>ソース ファイル\Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemManager.h">
+      <Filter>ソース ファイル\Source\Item\Itemの管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemDef.h">
+      <Filter>ソース ファイル\Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Inventory\InventoryManager.h">
+      <Filter>ソース ファイル\Source\Inventory\Inventory管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Inventory\InventoryDef.h">
+      <Filter>ソース ファイル\Source\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\FooterScene.h">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyManager.h">
+      <Filter>ソース ファイル\Source\Enemy\Enemy管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyDef.h">
+      <Filter>ソース ファイル\Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Block\Block.h">
+      <Filter>ソース ファイル\Source\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Item.h">
+      <Filter>ソース ファイル\Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Enemy.h">
+      <Filter>ソース ファイル\Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet\Bullet.h">
+      <Filter>ソース ファイル\Source\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet\BulletManager.h">
+      <Filter>ソース ファイル\Source\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet\BulletBase.h">
+      <Filter>ソース ファイル\Source\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goal\Goal.h">
+      <Filter>ソース ファイル\Source\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goal\GoalManager.h">
+      <Filter>ソース ファイル\Source\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\CraftScene.h">
+      <Filter>ソース ファイル\Source\Scene\各シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemCraft.h">
+      <Filter>ソース ファイル\Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemCraftManager.h">
+      <Filter>ソース ファイル\Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\StageMapChip.h">
+      <Filter>ソース ファイル\Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\SoundManager.h">
+      <Filter>ソース ファイル\Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animetion\AnimetionManager.h">
+      <Filter>ソース ファイル\Source\Animetion</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\StageParameter.h">
+      <Filter>ソース ファイル\Source\Stage\Stage管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Library\json\json.hpp">
+      <Filter>ソース ファイル\Source\Library\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Floor\FloorPram.h">
+      <Filter>ソース ファイル\Source\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Floor\FloorManager.h">
+      <Filter>ソース ファイル\Source\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button\Button.h">
+      <Filter>ソース ファイル\Source\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button\IconButton.h">
+      <Filter>ソース ファイル\Source\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SkyBox\SkyBox.h">
+      <Filter>ソース ファイル\Source\SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Block\BlockOccludable.h">
+      <Filter>ソース ファイル\Source\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIBase.h">
+      <Filter>ソース ファイル\Source\UI\UI管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UIManager.h">
+      <Filter>ソース ファイル\Source\UI\UI管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\PoseUI.h">
+      <Filter>ソース ファイル\Source\UI\PoseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\CraftUI.h">
+      <Filter>ソース ファイル\Source\UI\CraftUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\TextUI.h">
+      <Filter>ソース ファイル\Source\UI\TextUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

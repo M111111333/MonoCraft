@@ -1,0 +1,38 @@
+﻿#pragma once
+
+#include "DxLib.h"
+
+class CollisionSphere
+{
+public:
+	CollisionSphere();
+	~CollisionSphere();
+
+public:
+	void Draw();			// 描画
+
+public:
+	void SetTargetPos(VECTOR* targetPos) { m_TargetPos = targetPos; }
+	void SetLocalPos(VECTOR localPos) { m_LocalPos = localPos; }
+	void SetRadius(float radius) { m_Radius = radius; }
+	void SetWorldPos(VECTOR wPos) { m_WorldPos = wPos; }
+
+	VECTOR GetTargetPos() { return *m_TargetPos; }
+	VECTOR GetLocalPos() { return m_LocalPos; }
+	VECTOR GetWorldPos() const { return m_WorldPos; }
+	float GetRadius() { return m_Radius; }
+
+public:
+	bool CheckSphere(CollisionSphere* other);
+	bool CheckHitSphereAABB(VECTOR spherePos, float sphereR, VECTOR boxPos, VECTOR boxSize);
+
+private:
+	// 対象の座標
+	VECTOR* m_TargetPos;
+	// 対象の座標を原点としたローカル座標
+	VECTOR m_LocalPos;
+
+	VECTOR m_WorldPos;
+	// 球の半径
+	float m_Radius;
+};

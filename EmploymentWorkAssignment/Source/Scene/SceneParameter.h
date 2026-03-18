@@ -1,0 +1,28 @@
+﻿#pragma once
+
+enum SceneState
+{
+	INIT,
+	LOAD,
+	START,
+	LOOP,
+	FIN,
+	SCENE_STATE_MAX,
+	SCENE_STATE_NONE = -1
+};
+
+enum SceneType
+{
+	TITLE,
+	PLAY,
+	CRAFT,
+	FOOTER,
+	POSE,
+	OVER,
+	CLEAR,
+	TUTORIAL,
+	FAFE_OUT,
+	SCENE_TYPE_NONE = -1
+
+};
+
